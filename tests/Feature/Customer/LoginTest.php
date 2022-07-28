@@ -7,7 +7,7 @@ use Illuminate\Testing\Fluent\AssertableJson;
 function getUser()
 {
     return User::factory()->create([
-        'email' => 'mark.tunde@gmail.com',
+        'email' => 'john.doe@gmail.com',
         'password' => bcrypt('passworded'),
         'role' => 'customer'
     ]);
